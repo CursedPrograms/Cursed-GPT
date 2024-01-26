@@ -1,5 +1,5 @@
 transformers
 tensorflow
-torch = 5.3.0
+torch == 5.3.0
 torchvision
 torchaudio
