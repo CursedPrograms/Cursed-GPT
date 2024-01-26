@@ -1,6 +1,7 @@
 torchvision)
 torch)
 5.3.0
+psdenv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
