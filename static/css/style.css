@@ -1,23 +1,12 @@
 @import url('https://cursedprograms.github.io/cursedentertainment/styles/main-style.css');
 
-@font-face {
-    font-family: 'Futura';
-    src: url('https://fonts.googleapis.com/css?family=Futura');
-}
 
 html {
     scroll-behavior: smooth;
 }
 
-* {
-    font-family: Futura, sans-serif;
-    font-weight: lighter;
-    letter-spacing: 3px;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #007ab7;
+    background-color: var(--color-primary);
     color: #fff;
     margin: 0;
     padding: 0;
@@ -28,7 +17,6 @@ body {
 }
 
 footer {
-    background-color: #007ab7;
     font-weight: lighter;
     text-align: center;
     padding-bottom: 2%;
@@ -65,7 +53,7 @@ form input {
 }
 
 button {
-    background-color: #f088e9;
+    background-color: var(--color-tertiary);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -83,7 +71,7 @@ ul {
 }
 
 ul li {
-    color: #f088e9;
+    color: var(--color-tertiary);
 }
 
 p {
@@ -110,7 +98,7 @@ p {
 }
 
 #messages div {
-    background-color: #f088e9;
+    background-color: var(--color-secondary);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
