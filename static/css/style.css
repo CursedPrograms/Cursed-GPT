@@ -1,34 +1,10 @@
 @import url('https://cursedprograms.github.io/cursedentertainment/styles/main-style.css');
 
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: var(--color-primary);
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-footer {
-    font-weight: lighter;
-    text-align: center;
-    padding-bottom: 2%;
-}
-
 .container {
     width: 80%;
-}
-
-h1 {
-    color: #fff;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 form {
@@ -50,19 +26,6 @@ form input {
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
-}
-
-button {
-    background-color: var(--color-tertiary);
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #168FCC;
 }
 
 ul {
@@ -89,7 +52,7 @@ p {
     margin: 20px auto;
     padding: 20px;
     color: #000;
-    background-color: #fff;
+    background-color: var(--color-secondary);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     max-height: 200px;
@@ -98,7 +61,7 @@ p {
 }
 
 #messages div {
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
