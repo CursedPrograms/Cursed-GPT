@@ -3,3 +3,4 @@ tensorflow
 torch == 2.1.2
 torchvision
 torchaudio
+flask
