@@ -9,6 +9,21 @@
 
 # Cursed-GPT
 
+## Requirements
+
+```bash
+transformers==4.37.1
+tensorflow==2.14.0
+torch==2.1.1
+torchvision==0.16.1
+torchaudio==2.1.1
+flask==3.0.0
+gtts==2.5.0
+pyaudio==0.2.14 
+pydub==0.25.1
+beautifulsoup4==4.10.0
+```
+
 ```bash
 "you suck, but you're not going to do anything about it."
 ```
