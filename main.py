@@ -1,9 +1,8 @@
 import os
 import subprocess
-import sys
 
 def main():
-    print("CursedGPT")
+    print("Python Project")
 
     scripts = {
         "1": {
@@ -37,9 +36,9 @@ def main():
         
         user_choice = input("Enter the number of the script you want to run (or 'q' to quit): ").strip()
         
-        if user_choice.lower() == 'q':
-            sys.exit()
-
+        if user_choice == 'q':
+            break
+        
         if user_choice in scripts:
             selected_script = scripts[user_choice]
             script_file_name = selected_script["file_name"]
@@ -47,8 +46,8 @@ def main():
             
             if os.path.exists(script_file_path):
                 try:
-                    subprocess.Popen(["python", script_file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-                except subprocess.CalledProcessError as e:
+                    subprocess.run(["python", script_file_path])
+                except Exception as e:
                     print(f"An error occurred while running the script: {e}")
             else:
                 print(f"Script file '{script_file_name}' does not exist.")
