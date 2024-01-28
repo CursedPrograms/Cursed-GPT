@@ -4,4 +4,8 @@ torch==2.1.1
 torchvision==0.16.1
 torchaudio==2.1.1
 flask==3.0.0
+gtts==2.5.0
+pyaudio==0.2.14 
+pydub==0.25.1
+beautifulsoup4==4.10.0
 
