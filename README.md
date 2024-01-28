@@ -8,7 +8,9 @@
 </div>
 
 # CursedGPT
-
+```bash
+"you suck, but you're not going to do anything about it."
+```
 CursedGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model. It employs TensorFlow for model management and AutoTokenizer for efficient tokenization. The script enables users to input prompts interactively, generating text responses from the GPT-2 model. To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
 
 ## Project Structure:
@@ -32,9 +34,6 @@ gtts==2.5.0
 pyaudio==0.2.14 
 pydub==0.25.1
 beautifulsoup4==4.10.0
-```
-```bash
-"you suck, but you're not going to do anything about it."
 ```
 ```bash
 pip install -r requirements.txt
