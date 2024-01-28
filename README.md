@@ -50,6 +50,7 @@ python app.py
 - [Gender-Age-ID Repository](https://github.com/CursedPrograms/Gender-Age-ID)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
 - [Image-Generator Repository](https://github.com/CursedPrograms/Image-Generator)
+- [Cursed GPT Repository](https://github.com/CursedPrograms/Cursed-GPT)
 
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
