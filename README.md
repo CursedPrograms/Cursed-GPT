@@ -49,7 +49,7 @@ python app.py
 - [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
 - [Gender-Age-ID Repository](https://github.com/CursedPrograms/Gender-Age-ID)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
-- [Image-Generator](https://github.com/CursedPrograms/Image-Generator)
+- [Image-Generator Repository](https://github.com/CursedPrograms/Image-Generator)
 
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
