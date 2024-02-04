@@ -6,16 +6,21 @@ def main():
 
     scripts = {
         "1": {
-            "name": "Run Cursed GPT",
+            "name": "Run 'transformer.py'",
             "description": "Generate text using Cursed GPT",
             "file_name": "scripts/transformer.py"
         },
         "2": {
-            "name": "Run Cursed GPT Text-to-Speech",
+            "name": "Run 'transformer-t2s.py'",
             "description": "Run Cursed GPT with text to speech",
             "file_name": "scripts/transformer-t2s.py"
         },
         "3": {
+            "name": "Run 'transformer-s2t2s.py'",
+            "description": "Run Cursed GPT with speech to text to speech",
+            "file_name": "scripts/transformer-s2t2s.py"
+        },
+        "4": {
             "name": "Run Cursed GPT Flask Server",
             "description": "Interact with Cursed GPT using HTML and Flask",
             "file_name": "app.py"

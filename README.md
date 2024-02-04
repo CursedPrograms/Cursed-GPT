@@ -17,9 +17,11 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 - main.py: Main select menu screen
 - redirect.py: Redirects to transformer.py
 - app.py: Executes CursedGPT using a Flask server
+
 ## Scripts:
 - transformer.py: Runs CursedGPT
 - transformer-t2s.py: Runs CursedGPT with text-to-speech functionality
+- transformer-s2t2s.py: Runs CursedGPT with speech-to-text-to-speech functionality
 
 ## Requirements
 
@@ -34,6 +36,7 @@ gtts==2.5.0
 pyaudio==0.2.14 
 pydub==0.25.1
 beautifulsoup4==4.10.0
+SpeechRecognition==3.10.1
 ```
 ```bash
 pip install -r requirements.txt
