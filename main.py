@@ -25,6 +25,11 @@ def main():
             "description": "Interact with Cursed GPT using HTML and Flask",
             "file_name": "app.py"
         },
+        "00": {
+        "name": "Run 'Install Dependencies'",
+        "description": "Install dependencies",
+        "file_name": "scripts/install-dependencies.py"
+        },
         "default": {
             "name": "Redirect to Main",
             "description": "Redirect to Main",
