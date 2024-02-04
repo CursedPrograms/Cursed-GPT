@@ -6,7 +6,7 @@ import logging
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
 
-def generate_text(prompt, model, tokenizer, max_length=50):
+def generate_text(prompt, model, tokenizer, max_length=150):
     inputs = tokenizer.encode(prompt, return_tensors="tf", max_length=max_length, truncation=True)
     attention_mask = tf.ones_like(inputs)
     outputs = model.generate(
