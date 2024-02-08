@@ -172,13 +172,6 @@ print(f"Captured image saved at: {captured_image_path}")
 description = image_description(captured_image_path)
 print(description)
 
-# Example usage:
-captured_image_path = capture_photo()
-print(f"Captured image saved at: {captured_image_path}")
-
-description = image_description(captured_image_path)
-print(description)
-
 def main():
     model_name = "gpt2"
     model = TFAutoModelForCausalLM.from_pretrained(model_name)
