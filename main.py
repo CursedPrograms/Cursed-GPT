@@ -2,7 +2,7 @@ import os
 import subprocess
 
 def main():
-    print("Python Project")
+    print("Cursed GPT")
 
     scripts = {
         "1": {
