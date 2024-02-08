@@ -12,6 +12,7 @@ import numpy as np
 import pyaudio
 import speech_recognition as sr
 import wave
+import json
 
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
@@ -35,7 +36,12 @@ def download_caffe_model_files():
     caffemodel_path = os.path.join("models", "mobilenet_iter_73000.caffemodel")
     download_file(caffemodel_url, caffemodel_path)
 
-def generate_text(prompt, model, tokenizer, max_length=50):
+def generate_text(prompt, model, tokenizer, settings_path="settings.json"):
+    with open(settings_path, "r") as settings_file:
+        settings = json.load(settings_file)
+
+    max_length = settings.get("max_length", 50)
+
     inputs = tokenizer.encode(prompt, return_tensors="tf", max_length=max_length, truncation=True)
     attention_mask = tf.ones_like(inputs)
     outputs = model.generate(

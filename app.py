@@ -13,7 +13,12 @@ model_name = "gpt2"
 model = TFAutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name, pad_token_id=50256)
 
-def generate_text(prompt, model, tokenizer, max_length=50):
+def generate_text(prompt, model, tokenizer, settings_path="settings.json"):
+    with open(settings_path, "r") as settings_file:
+        settings = json.load(settings_file)
+
+    max_length = settings.get("max_length", 50)
+
     inputs = tokenizer.encode(prompt, return_tensors="tf", max_length=max_length, truncation=True)
     attention_mask = tf.ones_like(inputs)
     outputs = model.generate(
