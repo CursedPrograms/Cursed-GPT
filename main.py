@@ -21,9 +21,14 @@ def main():
             "file_name": "scripts/transformer-s2t2s.py"
         },
         "4": {
-            "name": "Run Cursed GPT Flask Server",
+            "name": "Run 'app.py'",
             "description": "Interact with Cursed GPT using HTML and Flask",
             "file_name": "app.py"
+        },
+        "5": {
+            "name": "Run 'transformer-webcam.py",
+            "description": "Interact with Cursed GPT using a webcam and mic",
+            "file_name": "scripts/transformer-webcam.py"
         },
         "00": {
         "name": "Run 'Install Dependencies'",
