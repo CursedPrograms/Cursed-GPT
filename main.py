@@ -21,12 +21,12 @@ def main():
         "2": {
             "name": "Run 'transformer-t2s.py'",
             "description": "Run Cursed GPT with text to speech",
-            "file_name": "scripts/transformer-t2s.py"
+            "file_name": "scripts/transformer_t2s.py"
         },
         "3": {
             "name": "Run 'transformer-s2t2s.py'",
             "description": "Run Cursed GPT with speech to text to speech",
-            "file_name": "scripts/transformer-s2t2s.py"
+            "file_name": "scripts/transformer_s2t2s.py"
         },
         "4": {
             "name": "Run 'app.py'",
@@ -36,12 +36,12 @@ def main():
         "5": {
             "name": "Run 'transformer-webcam.py",
             "description": "Interact with Cursed GPT using a webcam and mic",
-            "file_name": "scripts/transformer-webcam.py"
+            "file_name": "scripts/transformer_webcam.py"
         },
         "00": {
             "name": "Run 'Install Dependencies'",
             "description": "Install dependencies",
-            "file_name": "scripts/install-dependencies.py"
+            "file_name": "scripts/install_dependencies.py"
         },
         "default": {
             "name": "Redirect to Main",
