@@ -39,9 +39,9 @@ def main():
             "file_name": "scripts/transformer-webcam.py"
         },
         "00": {
-        "name": "Run 'Install Dependencies'",
-        "description": "Install dependencies",
-        "file_name": "scripts/install-dependencies.py"
+            "name": "Run 'Install Dependencies'",
+            "description": "Install dependencies",
+            "file_name": "scripts/install-dependencies.py"
         },
         "default": {
             "name": "Redirect to Main",
