@@ -8,13 +8,17 @@
       "Transformer-t2s-Script": "scripts/transformer-t2s.py",
       "Transformer-s2t2s-Script": "scripts/transformer-s2t2s.py",
       "Transforemer-WebcamScript": "scripts/transformer-WebcamScript.py",
+      "DependenciesScript": "scripts/install-dependencies.py",
       "AppScript": "app.py"
     },
     "Scripts": {
-      "TransformerScript": "transformer.py",
-      "TextToSpeechScript": "transformer-t2s.py",
-      "SpeechToTextToSpeechScript": "transformer-s2t2s.py",
-      "WebcamScript": "transformer-webcam.py"
+      "MainScript": "main.py",
+      "TransformerScript": "scripts/transformer.py",
+      "Transformer-t2s-Script": "scripts/transformer-t2s.py",
+      "Transformer-s2t2s-Script": "scripts/transformer-s2t2s.py",
+      "Transforemer-WebcamScript": "scripts/transformer-WebcamScript.py",
+      "DependenciesScript": "scripts/install-dependencies.py",
+      "AppScript": "app.py"
     }
   }
 }
