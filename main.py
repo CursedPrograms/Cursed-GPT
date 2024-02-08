@@ -2,10 +2,6 @@ import os
 import subprocess
 import json
 
-
-
-import json
-
 def main():
     with open('config.json') as json_file:
         config_data = json.load(json_file)
