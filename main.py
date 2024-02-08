@@ -1,8 +1,20 @@
 import os
 import subprocess
+import json
+
+
+
+import json
 
 def main():
-    print("Cursed GPT")
+    with open('config.json') as json_file:
+        config_data = json.load(json_file)
+
+    # Get the project name from the JSON data
+    app_name = config_data.get('CursedGPTConfig', {}).get('AppName', 'default_app')
+
+    # Print the actual app name value
+    print(app_name)
 
     scripts = {
         "1": {
