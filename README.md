@@ -16,6 +16,7 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 ## Scripts:
 
 - **main.py:** The selection menu for CursedGPT
+- **app.py:** Run CursedGPT as a web-server
 
 ### /scripts/
 
