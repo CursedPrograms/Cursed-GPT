@@ -9,7 +9,7 @@ import webbrowser
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 model_name = "gpt2"
 model = TFAutoModelForCausalLM.from_pretrained(model_name)
