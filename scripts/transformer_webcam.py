@@ -101,7 +101,6 @@ def capture_audio(duration=5, sample_rate=44100):
 
     return temp_audio_file
 
-
 def capture_photo(output_dir="output/shot"):
     # Create the output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)

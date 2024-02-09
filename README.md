@@ -15,9 +15,9 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 
 ## Scripts:
 - transformer.py: Runs CursedGPT
-- transformer-t2s.py: Runs CursedGPT with text-to-speech functionality
-- transformer-s2t2s.py: Runs CursedGPT with speech-to-text-to-speech functionality
-- transformer-webcam.py: Runs CursedGPT with webcam functionality
+- transformer_t2s.py: Runs CursedGPT with text-to-speech functionality
+- transformer_s2t2s.py: Runs CursedGPT with speech-to-text-to-speech functionality
+- transformer_webcam.py: Runs CursedGPT with webcam functionality
 
 ## Requirements
 
