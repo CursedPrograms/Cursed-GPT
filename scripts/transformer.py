@@ -2,8 +2,7 @@ import transformers
 from transformers import TFAutoModelForCausalLM, AutoTokenizer
 import tensorflow as tf
 import logging
-import json
-from generate_text import generate_text
+from system.generate_text import generate_text
 
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)

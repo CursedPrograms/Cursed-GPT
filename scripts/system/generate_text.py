@@ -1,5 +1,4 @@
 import transformers
-from transformers import TFAutoModelForCausalLM, AutoTokenizer
 import tensorflow as tf
 import logging
 import json

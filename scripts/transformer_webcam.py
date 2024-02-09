@@ -1,18 +1,17 @@
 import transformers
 from transformers import TFAutoModelForCausalLM, AutoTokenizer
-from gtts import gTTS
-import subprocess
 import tensorflow as tf
 import logging
 import os
-from bs4 import BeautifulSoup
 import cv2
 import time
 import numpy as np
 import pyaudio
 import speech_recognition as sr
 import wave
-from generate_text import generate_text
+from system.generate_text import generate_text
+from system.tts import text_to_speech
+from system.capture_photo import capture_photo
 
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
@@ -35,36 +34,6 @@ def download_caffe_model_files():
     caffemodel_url = "https://github.com/chuanqi305/MobileNet-SSD/raw/master/mobilenet_iter_73000.caffemodel"
     caffemodel_path = os.path.join("models", "mobilenet_iter_73000.caffemodel")
     download_file(caffemodel_url, caffemodel_path)
-
-def clean_text(text):
-    # Remove HTML tags
-    soup = BeautifulSoup(text, "html.parser")
-    cleaned_text = soup.get_text(separator=" ")
-
-    # Remove unwanted characters
-    cleaned_text = cleaned_text.replace("\n", " ").strip()
-
-    return cleaned_text
-
-def text_to_speech(text):
-    cleaned_text = clean_text(text)
-    tts = gTTS(text=cleaned_text, lang='en', slow=False)    
-    audio_path = "output/audio/output.mp3"
-    os.makedirs(os.path.dirname(audio_path), exist_ok=True)
-
-    tts.save(audio_path)
-
-    # Open the audio file with the default media player
-    try:
-        subprocess.run(["start", audio_path], check=True, shell=True)
-    except subprocess.CalledProcessError as e:
-        print(f"Error: {e}")
-
-def capture_photo():
-    cap = cv2.VideoCapture(0)
-    ret, frame = cap.read()
-    cap.release()
-    return frame
 
 def capture_audio(duration=5, sample_rate=44100):
     p = pyaudio.PyAudio()
@@ -100,25 +69,6 @@ def capture_audio(duration=5, sample_rate=44100):
     wf.close()
 
     return temp_audio_file
-
-def capture_photo(output_dir="output/shot"):
-    # Create the output directory if it doesn't exist
-    os.makedirs(output_dir, exist_ok=True)
-
-    # Open a connection to the webcam
-    cap = cv2.VideoCapture(0)
-
-    # Capture a single frame
-    ret, frame = cap.read()
-
-    # Release the webcam
-    cap.release()
-
-    # Save the captured frame to the specified directory
-    image_path = os.path.join(output_dir, "captured_photo.jpg")
-    cv2.imwrite(image_path, frame)
-
-    return image_path
 
 def image_description(image_path):
     # Load the pre-trained MobileNet SSD model and its class labels
