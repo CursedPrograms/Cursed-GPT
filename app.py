@@ -4,6 +4,7 @@ from transformers import TFAutoModelForCausalLM, AutoTokenizer
 import tensorflow as tf
 import logging
 from scripts.system.generate_text import generate_text
+import webbrowser
 
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
@@ -24,5 +25,6 @@ def generate():
     generated_text = generate_text(prompt, model, tokenizer)
     return render_template('index.html', prompt=prompt, generated_text=generated_text)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    webbrowser.open('http://127.0.0.1:5000/')
+    app.run(debug=True, use_reloader=False)
