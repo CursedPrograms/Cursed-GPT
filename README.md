@@ -8,6 +8,14 @@
 </div>
 
 # CursedGPT
+
+<div align="center">
+<a target="_blank">
+    <img src="/demo_images/cover.png"
+        alt="CursedGPT">
+</a>
+</div>
+
 ```bash
 "you suck, but you're not going to do anything about it."
 ```
