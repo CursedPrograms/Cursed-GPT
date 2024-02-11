@@ -11,7 +11,7 @@
 
 <div align="center">
 <a target="_blank">
-    <img src="/demo_images/cover.png"
+    <img src="https://github.com/CursedPrograms/Cursed-GPT/demo_images/cover.png"
         alt="CursedGPT">
 </a>
 </div>
