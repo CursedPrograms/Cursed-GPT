@@ -10,7 +10,7 @@
 # CursedGPT
 
 <div align="center">
-<a target="_blank">
+<a href="https://cursedprograms.github.io/cursedgpt-pr/" target="_blank">
     <img src="https://github.com/CursedPrograms/Cursed-GPT/raw/main/demo_images/cover.png"
         alt="CursedGPT">
 </a>
