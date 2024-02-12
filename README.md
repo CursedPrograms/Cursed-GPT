@@ -10,9 +10,9 @@
 # SynthiaGPT
 
 <div align="center">
-<a href="https://cursedprograms.github.io/cursedgpt-pr/" target="_blank">
+<a href="" target="_blank">
     <img src="https://github.com/SynthWomb/Synthia/raw/main/demo_images/synthia00-cover.png"
-        alt="CursedGPT">
+        alt="SynthiaGPT">
 </a>
 </div>
 <br>
