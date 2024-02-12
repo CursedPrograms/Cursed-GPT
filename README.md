@@ -11,7 +11,7 @@
 
 <div align="center">
 <a href="https://cursedprograms.github.io/cursedgpt-pr/" target="_blank">
-    <img src="https://github.com/CursedPrograms/Cursed-GPT/raw/main/demo_images/cover.png"
+    <img src="https://github.com/SynthWomb/Synthia/raw/main/demo_images/synthia00-cover.png"
         alt="CursedGPT">
 </a>
 </div>
