@@ -41,7 +41,8 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 - **clean_text.py:** Clean text from recorded voice audio
 - **stt.py:** Speech-to-text
 - **tts.py:** Text-to-speech
-- **capture_photo.py:** Capture photo with webcam
+- **capture_photo.py:** Capture photo with a webcam
+- **play_audio.py:** Play generated audio
 
 ## Requirements:
 
@@ -57,6 +58,7 @@ pyaudio==0.2.14
 pydub==0.25.1
 beautifulsoup4==4.10.0
 SpeechRecognition==3.10.1
+pygame==2.5.2
 ```
 ## How to Run:
 ```bash
