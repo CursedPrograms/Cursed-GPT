@@ -74,7 +74,7 @@ python app.py
 <br>
 
 <div align="center">
-<a href="" target="_blank">
+<a href="https://github.com/SynthWomb/Synthia" target="_blank">
     <img src="https://github.com/SynthWomb/Synthia/raw/main/demo_images/synthia00-cover.png"
         alt="SynthiaGPT">
 </a>
