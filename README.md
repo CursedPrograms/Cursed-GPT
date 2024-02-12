@@ -28,10 +28,10 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 
 ### /scripts/
 
-- **transformer.py:** Runs CursedGPT
-- **transformer_t2s.py:** Runs CursedGPT with text-to-speech functionality
-- **transformer_s2t2s.py:** Runs CursedGPT with speech-to-text-to-speech functionality
-- **transformer_webcam.py:** Runs CursedGPT with webcam functionality
+- **transformer.py:** Run CursedGPT
+- **transformer_t2s.py:** Run CursedGPT with text-to-speech functionality
+- **transformer_s2t2s.py:** Run CursedGPT with speech-to-text-to-speech functionality
+- **transformer_webcam.py:** Run CursedGPT with webcam functionality
 - **install_dependencies.py:** Install dependencies
 
 ### /scripts/system
@@ -42,7 +42,7 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 - **tts.py:** Text-to-speech
 - **capture_photo.py:** Capture photo with webcam
 
-## Requirements
+## Requirements:
 
 ```bash
 transformers==4.37.1
