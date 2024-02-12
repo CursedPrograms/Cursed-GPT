@@ -69,14 +69,6 @@ python main.py
 python app.py
 ```
 <br>
-
-- [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
-- [Gender-Age-ID Repository](https://github.com/CursedPrograms/Gender-Age-ID)
-- [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
-- [Image-Generator Repository](https://github.com/CursedPrograms/Image-Generator)
-
-
-<br>
 <div align="center">
 <a href="https://github.com/SynthWomb" target="_blank" align="center">
     <img src="https://github.com/SynthWomb/synth.womb/blob/main/logos/synthwomb07.png"
