@@ -73,6 +73,14 @@ python app.py
 ```
 <br>
 
+<div align="center">
+<a href="" target="_blank">
+    <img src="https://github.com/SynthWomb/Synthia/raw/main/demo_images/synthia00-cover.png"
+        alt="SynthiaGPT">
+</a>
+</div>
+<br>
+
 - [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
 - [Gender-Age-ID Repository](https://github.com/CursedPrograms/Gender-Age-ID)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
