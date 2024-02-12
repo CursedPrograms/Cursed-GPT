@@ -38,7 +38,8 @@ SynthiaGPT leverages the Hugging Face Transformers library to interact with a pr
 - **clean_text.py:** Clean text from recorded voice audio
 - **stt.py:** Speech-to-text
 - **tts.py:** Text-to-speech
-- **capture_photo.py:** Capture photo with webcam
+- **capture_photo.py:** Capture photo with a webcam
+- **play_audio.py:** Play generated audio
 
 ## Requirements:
 
@@ -54,6 +55,7 @@ pyaudio==0.2.14
 pydub==0.25.1
 beautifulsoup4==4.10.0
 SpeechRecognition==3.10.1
+pygame==2.5.2
 ```
 ## How to Run:
 ```bash
@@ -69,6 +71,14 @@ python main.py
 python app.py
 ```
 <br>
+
+- [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
+- [Gender-Age-ID Repository](https://github.com/CursedPrograms/Gender-Age-ID)
+- [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
+- [Image-Generator Repository](https://github.com/CursedPrograms/Image-Generator)
+
+<br>
+
 <div align="center">
 <a href="https://github.com/SynthWomb" target="_blank" align="center">
     <img src="https://github.com/SynthWomb/synth.womb/blob/main/logos/synthwomb07.png"
