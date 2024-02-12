@@ -7,7 +7,7 @@
     <img alt="Flask" src="https://img.shields.io/badge/flask%20-%23323330.svg?&style=for-the-badge&logo=flask&logoColor=white"/>
 </div>
 
-# CursedGPT
+# SynthiaGPT
 
 <div align="center">
 <a href="https://cursedprograms.github.io/cursedgpt-pr/" target="_blank">
@@ -20,19 +20,19 @@
 ```bash
 "you suck, but you're not going to do anything about it."
 ```
-CursedGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model. It employs TensorFlow for model management and AutoTokenizer for efficient tokenization. The script enables users to input prompts interactively, generating text responses from the GPT-2 model. To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
+SynthiaGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model. It employs TensorFlow for model management and AutoTokenizer for efficient tokenization. The script enables users to input prompts interactively, generating text responses from the GPT-2 model. To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
 
 ## Scripts:
 
-- **main.py:** The selection menu for CursedGPT
-- **app.py:** Run CursedGPT as a web-server
+- **main.py:** The selection menu for SynthiaGPT
+- **app.py:** Run SynthiaGPT as a web-server
 
 ### /scripts/
 
-- **transformer.py:** Run CursedGPT
-- **transformer_t2s.py:** Run CursedGPT with text-to-speech functionality
-- **transformer_s2t2s.py:** Run CursedGPT with speech-to-text-to-speech functionality
-- **transformer_webcam.py:** Run CursedGPT with webcam functionality
+- **transformer.py:** Run SynthiaGPT
+- **transformer_t2s.py:** Run SynthiaGPT with text-to-speech functionality
+- **transformer_s2t2s.py:** Run SynthiaGPT with speech-to-text-to-speech functionality
+- **transformer_webcam.py:** Run SynthiaGPT with webcam functionality
 - **install_dependencies.py:** Install dependencies
 
 ### /scripts/system
