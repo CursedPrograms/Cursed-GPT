@@ -10,11 +10,12 @@
 # CursedGPT
 
 <div align="center">
-<a target="_blank">
+<a href="https://cursedprograms.github.io/cursedgpt-pr/" target="_blank">
     <img src="https://github.com/CursedPrograms/Cursed-GPT/raw/main/demo_images/cover.png"
         alt="CursedGPT">
 </a>
 </div>
+<br>
 
 ```bash
 "you suck, but you're not going to do anything about it."
@@ -70,12 +71,24 @@ python main.py
 ```bash
 python app.py
 ```
+<br>
+
 - [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
 - [Gender-Age-ID Repository](https://github.com/CursedPrograms/Gender-Age-ID)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
 - [Image-Generator Repository](https://github.com/CursedPrograms/Image-Generator)
 
+<br>
+<div align="center">
+<a href="https://github.com/SynthWomb" target="_blank" align="center">
+    <img src="https://github.com/SynthWomb/synth.womb/blob/main/logos/synthwomb07.png"
+        alt="SynthWomb" style="width:200px;"/>
+</a>
+</div>
+
+<div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
-        alt="CursedEntertainment Logo">
+        alt="CursedEntertainment Logo" style="width:250px;">
 </a>
+</div>
