@@ -20,22 +20,22 @@ def main():
         },
         "2": {
             "name": "Run 'transformer-t2s.py'",
-            "description": "Run Cursed GPT with text to speech",
+            "description": "Run SynthiaGPT with text to speech",
             "file_name": "scripts/transformer_t2s.py"
         },
         "3": {
             "name": "Run 'transformer-s2t2s.py'",
-            "description": "Run Cursed GPT with speech to text to speech",
+            "description": "Run SynthiaGPT with speech to text to speech",
             "file_name": "scripts/transformer_s2t2s.py"
         },
         "4": {
             "name": "Run 'app.py'",
-            "description": "Interact with Cursed GPT using HTML and Flask",
+            "description": "Interact with SynthiaGPT using HTML and Flask",
             "file_name": "app.py"
         },
         "5": {
             "name": "Run 'transformer-webcam.py",
-            "description": "Interact with Cursed GPT using a webcam and mic",
+            "description": "Interact with SynthiaGPT using a webcam and mic",
             "file_name": "scripts/transformer_webcam.py"
         },
         "00": {
