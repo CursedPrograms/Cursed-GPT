@@ -1,7 +1,7 @@
 <Config>
-    <AppName>CursedGPT</AppName>
+    <AppName>SynthiaGPT</AppName>
     <Description>
-        CursedGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model.
+        SynthiaGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model.
         It employs TensorFlow for model management and AutoTokenizer for efficient tokenization.
         The script enables users to input prompts interactively, generating text responses from the GPT-2 model.
         To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
@@ -11,7 +11,7 @@
         <TransformerScript>scripts/transformer.py</TransformerScript>
         <Transformer-t2s-Script>scripts/transformer-t2s.py</Transformer-t2s-Script>
         <Transformer-s2t2s-Script>scripts/transformer-s2t2s.py</Transformer-s2t2s-Script>
-        <Transforemer-WebcamScript>scripts/transformer-WebcamScript.py</Transforemer-WebcamScript>
+        <Transformer-WebcamScript>scripts/transformer-WebcamScript.py</Transformer-WebcamScript>
         <AppScript>app.py</AppScript>
     </ProjectStructure>
     <Scripts>
