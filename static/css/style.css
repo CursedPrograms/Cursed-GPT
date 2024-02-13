@@ -14,7 +14,7 @@ a {
     padding: 10px;
     margin: 10px auto; 
     background-color: var(--button-color);
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -32,7 +32,6 @@ body {
     font-family: Arial, sans-serif;
     background: var(--bg-image-url) no-repeat center center fixed;
     background-size: cover;
-    overflow: hidden; 
     margin: 0;
     padding: 0; 
     color: var(--text-color);
