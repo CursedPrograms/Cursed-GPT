@@ -1,8 +1,10 @@
 :root {
     --main-bg-color: #ffffff;
-    --accent-color: #00a1e0; 
-    --content-bg-color: #e5e5e5;
-    --text-color: #333333; 
+    --accent-color: #90bfd2; 
+    --content-bg-color: #45585e;
+    --button-color: #c0c9ce; 
+    --button-hover-color: #142a38; 
+    --text-color: #060b11; 
     --bg-image-url: url('../images/background.png');
 }
 
@@ -11,7 +13,7 @@ a {
     width: 200px;
     padding: 10px;
     margin: 10px auto; 
-    background-color: #3498db;
+    background-color: var(--button-color);
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -19,7 +21,7 @@ a {
 }
 
 a:hover {    
-    background-color: #2980b9;
+    background-color: var(--button-hover-color);
 }
 
 h1 {
@@ -43,7 +45,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(229, 229, 229, 0.8);
+    background-color: rgba(69, 88, 94, 0.3);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1; 
@@ -87,7 +89,7 @@ input {
 }
 
 button {
-    background-color: #00a1e0; 
+    background-color: var(--button-color);
     color: var(--text-color);
     padding: 10px;
     border: none;
@@ -96,14 +98,14 @@ button {
 }
 
 button:hover {
-    background-color: #00567f; 
+    background-color: var(--button-hover-color);
 }
 
 #dynamicFooter {
     margin-top: 20px;
     padding: 10px;
     color: var(--text-color);
-    color: white; /* This line seems redundant, consider removing it */
+    color: white; 
     text-align: center;
 }
 
