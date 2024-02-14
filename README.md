@@ -21,6 +21,7 @@
 <br>
 
 SynthiaGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model. It employs TensorFlow for model management and AutoTokenizer for efficient tokenization. The script enables users to input prompts interactively, generating text responses from the GPT-2 model. To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
+<br>
 
 ## Scripts:
 
@@ -28,13 +29,17 @@ SynthiaGPT leverages the Hugging Face Transformers library to interact with a pr
 - **app.py:** Run SynthiaGPT as a web-server
 - **redirect.py:** Redirect to "main.py"
 
+<br>
+
 ### /scripts/
-- **transformer.py:** A basic ChatGPT script
+- **chat_gpt.py:** A basic ChatGPT script
 - **transformer.py:** Run SynthiaGPT
 - **transformer_t2s.py:** Run SynthiaGPT with text-to-speech functionality
 - **transformer_s2t2s.py:** Run SynthiaGPT with speech-to-text-to-speech functionality
 - **transformer_webcam.py:** Run SynthiaGPT with webcam functionality
 - **install_dependencies.py:** Install dependencies
+
+<br>
 
 ### /scripts/system
 
@@ -45,6 +50,7 @@ SynthiaGPT leverages the Hugging Face Transformers library to interact with a pr
 - **capture_photo.py:** Capture photo with a webcam
 - **play_audio.py:** Play generated audio
 - **greeting.py:** Greets user
+
 <br>
 <div align="center">
 <a href="" target="_blank">
@@ -70,6 +76,8 @@ beautifulsoup4==4.10.0
 SpeechRecognition==3.10.1
 pygame==2.5.2
 ```
+<br>
+
 ## How to Run:
 ```bash
 pip install -r requirements.txt
