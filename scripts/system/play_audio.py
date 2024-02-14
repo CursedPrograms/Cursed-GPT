@@ -13,8 +13,8 @@ def play_audio(audio_path):
             time.sleep(1)
         pygame.mixer.music.stop()
         play_count += 1
-        pygame.mixer.music.load(None)
-    
+        time.sleep(2)    
+        
     try:
         os.remove(audio_path)
     except Exception as e:

@@ -26,9 +26,10 @@ SynthiaGPT leverages the Hugging Face Transformers library to interact with a pr
 
 - **main.py:** The selection menu for SynthiaGPT
 - **app.py:** Run SynthiaGPT as a web-server
+- **redirect.py:** Redirect to "main.py"
 
 ### /scripts/
-
+- **transformer.py:** A basic ChatGPT script
 - **transformer.py:** Run SynthiaGPT
 - **transformer_t2s.py:** Run SynthiaGPT with text-to-speech functionality
 - **transformer_s2t2s.py:** Run SynthiaGPT with speech-to-text-to-speech functionality
@@ -43,6 +44,7 @@ SynthiaGPT leverages the Hugging Face Transformers library to interact with a pr
 - **tts.py:** Text-to-speech
 - **capture_photo.py:** Capture photo with a webcam
 - **play_audio.py:** Play generated audio
+- **greeting.py:** Greets user
 <br>
 <div align="center">
 <a href="" target="_blank">
