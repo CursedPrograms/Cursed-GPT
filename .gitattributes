@@ -3,6 +3,11 @@
 *.json linguist-documentation=false
 *.json linguist-detectable=true
 
+*.ini linguist-vendored=false
+*.ini linguist-generated=false
+*.ini linguist-documentation=false
+*.ini linguist-detectable=true
+
 *.txt linguist-vendored=false
 *.txt linguist-generated=false
 *.txt linguist-documentation=false

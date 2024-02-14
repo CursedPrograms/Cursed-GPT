@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://cursedprograms.github.io/cursedentertainment/cursedFavicon.png" rel="icon" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CursedGPT</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1>CursedGPT</h1>
+        <div id="messages">
+            {% if prompt %}
+                <div>
+                    <strong>You:</strong>
+                    <p>{{ prompt }}</p>
+                </div>
+            {% endif %}
+            {% if generated_text %}
+                <div>
+                    <strong>CursedGPT:</strong>
+                    <p>{{ generated_text }}</p>
+                </div>
+            {% endif %}
+        </div>
+        <form action="/generate" method="post">
+            <label for="prompt">Your Message:</label>
+            <input type="text" id="prompt" name="prompt" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="icons_container">
+    <iframe src="https://cursedprograms.github.io/cursedentertainment/iframes/social-media-icons/social-media-icons.html"
+    frameborder="0"></iframe>
+    </div>
+<footer id="dynamicFooter"></footer>
+<script src="https://cursedprograms.github.io/cursedentertainment/scripts/footer.js"></script>
+</body>
+</html>
