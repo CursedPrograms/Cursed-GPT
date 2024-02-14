@@ -10,11 +10,10 @@
       "Transformer-t2s-Script": "scripts/transformer-t2s.py",
       "Transformer-s2t2s-Script": "scripts/transformer-s2t2s.py",
       "Transformer-WebcamScript": "scripts/transformer-webcam.py",
-      "RedirectScript":"scripts/redirect.py",
-      "System":{
-
-      },
-      "DependenciesScript": "scripts/install-dependencies.py"      
-    }
+      "RedirectScript": "scripts/redirect.py",
+      "DependenciesScript": "scripts/install-dependencies.py",
+      "System": {}
+    },
+    "Directories": {}
   }
 }
