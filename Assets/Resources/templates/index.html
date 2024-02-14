@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="" rel="icon" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SynthiaGPT</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1>SynthiaGPT</h1>
+        <div id="messages">
+            {% if prompt %}
+                <div class="user-message">
+                    <strong>You:</strong>
+                    <p>{{ prompt }}</p>
+                </div>
+            {% endif %}
+            {% if generated_text %}
+                <div class="synth-message">
+                    <strong>SynthiaGPT:</strong>
+                    <p>{{ generated_text }}</p>
+                </div>
+            {% endif %}
+        </div>
+        <form action="/generate" method="post">
+            <label for="prompt">Your Message:</label>
+            <input type="text" id="prompt" name="prompt" required>
+            <button type="submit">Send</button>
+        </form>
+        <br>
+        <div align="center">
+            <img src="https://github.com/SynthWomb/synth.womb/raw/main/logos/synthwomb08.png" alt="Synth Womb Logo" width="200">
+        </div>
+    </div>
+    
+<footer id="dynamicFooter"></footer>
+<script src="https://synthwomb.github.io/synth.womb/scripts/footer.js"></script>
+</body>
+</html>
