@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 <Config>
     <AppName>CursedGPT</AppName>
     <Description>
@@ -23,53 +21,3 @@
         <WebcamScript>transformer-webcam.py</WebcamScript>
     </Scripts>
 </Config>
-=======
-<Config>
-    <AppName>CursedGPT</AppName>
-    <Description>
-        CursedGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model.
-        It employs TensorFlow for model management and AutoTokenizer for efficient tokenization.
-        The script enables users to input prompts interactively, generating text responses from the GPT-2 model.
-        To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
-    </Description>
-    <ProjectStructure>
-        <MainScript>main.py</MainScript>
-        <TransformerScript>scripts/transformer.py</TransformerScript>
-        <Transformer-t2s-Script>scripts/transformer-t2s.py</Transformer-t2s-Script>
-        <Transformer-s2t2s-Script>scripts/transformer-s2t2s.py</Transformer-s2t2s-Script>
-        <Transforemer-WebcamScript>scripts/transformer-WebcamScript.py</Transforemer-WebcamScript>
-        <AppScript>app.py</AppScript>
-    </ProjectStructure>
-    <Scripts>
-        <TransformerScript>transformer.py</TransformerScript>
-        <TextToSpeechScript>transformer-t2s.py</TextToSpeechScript>
-        <SpeechToTextToSpeechScript>transformer-s2t2s.py</SpeechToTextToSpeechScript>
-        <WebcamScript>transformer-webcam.py</WebcamScript>
-    </Scripts>
-</Config>
->>>>>>> parent of f3be308 (Merge pull request #2 from SynthWomb/_dev)
-=======
-<Config>
-    <AppName>CursedGPT</AppName>
-    <Description>
-        CursedGPT leverages the Hugging Face Transformers library to interact with a pre-trained GPT-2 model.
-        It employs TensorFlow for model management and AutoTokenizer for efficient tokenization.
-        The script enables users to input prompts interactively, generating text responses from the GPT-2 model.
-        To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
-    </Description>
-    <ProjectStructure>
-        <MainScript>main.py</MainScript>
-        <TransformerScript>scripts/transformer.py</TransformerScript>
-        <Transformer-t2s-Script>scripts/transformer-t2s.py</Transformer-t2s-Script>
-        <Transformer-s2t2s-Script>scripts/transformer-s2t2s.py</Transformer-s2t2s-Script>
-        <Transforemer-WebcamScript>scripts/transformer-WebcamScript.py</Transforemer-WebcamScript>
-        <AppScript>app.py</AppScript>
-    </ProjectStructure>
-    <Scripts>
-        <TransformerScript>transformer.py</TransformerScript>
-        <TextToSpeechScript>transformer-t2s.py</TextToSpeechScript>
-        <SpeechToTextToSpeechScript>transformer-s2t2s.py</SpeechToTextToSpeechScript>
-        <WebcamScript>transformer-webcam.py</WebcamScript>
-    </Scripts>
-</Config>
->>>>>>> parent of f3be308 (Merge pull request #2 from SynthWomb/_dev)
