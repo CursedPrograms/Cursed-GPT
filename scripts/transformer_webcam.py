@@ -12,11 +12,14 @@ import wave
 from system.generate_text import generate_text
 from system.tts import text_to_speech
 from system.capture_photo import capture_photo
+from system.greeting import greeting
 
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
 
 import urllib.request
+
+greeting()
 
 def download_file(url, save_path):
     urllib.request.urlretrieve(url, save_path)
@@ -91,7 +94,7 @@ def image_description(image_path):
         confidence = detections[0, 0, i, 2]
         if confidence > 0.5:  # Confidence threshold
             class_id = int(detections[0, 0, i, 1])
-            description = f"A photo containing a {classes[class_id]} with confidence {confidence:.2f}"
+            description = f"a {classes[class_id]}"
             return description
 
     return "Unable to identify the content of the photo."
@@ -116,7 +119,7 @@ def main():
         photo = capture_photo()
         image_desc = image_description(photo)
         print(f"Image Description: {image_desc}")
-
+        text_to_speech(f"I see a: {image_desc}")
         # Convert audio file to text
         recognizer = sr.Recognizer()
         audio_text = ""
@@ -143,8 +146,6 @@ def main():
 
         # Generate text based on the prompt
         generated_text = generate_text(prompt, model, tokenizer)
-
-        # Print and say the generated text
         if generated_text:
             print("Generated Text:")
             print(generated_text)

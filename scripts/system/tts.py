@@ -1,5 +1,4 @@
 import os
-import subprocess
 from gtts import gTTS
 import speech_recognition as sr
 from .clean_text import clean_text
