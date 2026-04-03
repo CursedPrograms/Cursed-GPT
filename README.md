@@ -44,6 +44,12 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 - **capture_photo.py:** Capture photo with a webcam
 - **play_audio.py:** Play generated audio
 
+python3 -m venv venv
+source venv/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
 ## Requirements:
 
 ```bash
