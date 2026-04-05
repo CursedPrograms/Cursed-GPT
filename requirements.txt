@@ -50,6 +50,7 @@ PyAudio==0.2.14
 pydub==0.25.1
 pygame==2.5.2
 Pygments==2.20.0
+pyttsx3==2.99
 PyYAML==6.0.3
 regex==2026.3.32
 requests==2.33.1
