@@ -55,11 +55,29 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 - **capture_photo.py:** Capture photo with a webcam
 - **play_audio.py:** Play generated audio
 
+## How to Run:
+
+### Environment Setup/Install Dependencies
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+```bash
+pip install torch torchvision torchaudio
+```
+### Run main.py for terminal interactivity
+
+```bash
+python main.py
+```
+### Run app.py for flask web server
+
+```bash
+python app.py
+```
 
 ## Requirements:
 
@@ -119,6 +137,7 @@ PyAudio                  0.2.14
 pydub                    0.25.1
 pygame                   2.5.2
 Pygments                 2.20.0
+pyttsx3                  2.99
 PyYAML                   6.0.3
 regex                    2026.3.32
 requests                 2.33.1
@@ -143,25 +162,8 @@ urllib3                  2.6.3
 Werkzeug                 3.1.8
 wheel                    0.46.3
 wrapt                    2.1.2
+```
 
-```
-## How to Run:
-
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-```bash
-pip install torch torchvision torchaudio
-```
-```bash
-python main.py
-```
-```bash
-python app.py
-```
 <br>
 
 <div align="center">
