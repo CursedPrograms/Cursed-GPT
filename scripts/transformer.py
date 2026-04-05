@@ -3,6 +3,18 @@ from transformers import TFAutoModelForCausalLM, AutoTokenizer
 import tensorflow as tf
 import logging
 from system.generate_text import generate_text
+import os
+# Force Transformers to use the standalone tf-keras package
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
+import tensorflow as tf
+import tf_keras as keras
+
+# Patching the transformers library's view of keras
+import sys
+sys.modules["keras"] = keras
+
+from transformers import TFAutoModelForCausalLM
 
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)

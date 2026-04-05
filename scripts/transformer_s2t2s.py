@@ -6,6 +6,17 @@ from system.generate_text import generate_text
 from system.tts import text_to_speech
 from system.stt import speech_to_text
 
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
+import tensorflow as tf
+import tf_keras as keras
+
+# Patching the transformers library's view of keras
+import sys
+sys.modules["keras"] = keras
+
+from transformers import TFAutoModelForCausalLM
+
 transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
 

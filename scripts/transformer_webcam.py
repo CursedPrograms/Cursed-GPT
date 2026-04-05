@@ -3,6 +3,8 @@ from transformers import TFAutoModelForCausalLM, AutoTokenizer
 import tensorflow as tf
 import logging
 import os
+# Force Transformers to use the standalone tf-keras package
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 import cv2
 import time
 import numpy as np
@@ -17,6 +19,15 @@ transformers.logging.set_verbosity_error()
 tf.get_logger().setLevel(logging.ERROR)
 
 import urllib.request
+
+import tensorflow as tf
+import tf_keras as keras
+
+# Patching the transformers library's view of keras
+import sys
+sys.modules["keras"] = keras
+
+from transformers import TFAutoModelForCausalLM
 
 def download_file(url, save_path):
     urllib.request.urlretrieve(url, save_path)
