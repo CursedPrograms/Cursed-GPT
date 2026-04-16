@@ -73,7 +73,7 @@ CursedGPT leverages the Hugging Face Transformers library to interact with a pre
 
 ---
 
-## How to Run:
+## Setup:
 
 ### Environment Setup
 
